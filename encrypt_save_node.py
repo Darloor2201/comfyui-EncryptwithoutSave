@@ -237,7 +237,7 @@ class EncryptSaveAES:
 
 
         # Return results to the UI
-        return { "ui": { "images": results } }
+        return {}
 
 # --- Register Node with ComfyUI ---
 NODE_CLASS_MAPPINGS = {
